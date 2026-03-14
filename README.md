@@ -25,9 +25,3 @@
 - Electric Field Instrument (EFI): Measure electric fields and plasma density
 - Electrostatic Analyzer (ESA): Measure thermal ions and electrons
 - Solid State Telescope (SST): Measure high-energy particles
-
----
-
-# Data
-
-**Timeline**: 7/1/2014 - 12/31/2014
