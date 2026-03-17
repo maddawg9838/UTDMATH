@@ -1,4 +1,4 @@
-# Data Explanation
+# Plots Information
 
 **Timeline**: 7/1/2014 - 12/31/2014
 <br>
