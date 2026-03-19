@@ -14,8 +14,8 @@
     - Increased stress causes the near-Earth (<~ Earth radii) plasma sheet to narrow in the north-south dimension; this process is referred to as plasma-sheet thinning.
     - Before the onset of auroral activity
     - Consequence
-      - Since the maximum particle flux 
-  - Phase 2. **The Expansion Phase**:
+      - Since the maximum particle flux is found at the center of the plasma sheet, a satellite located in the plasma sheet will observe a decrease in the flux as the plasma sheet thins. It will also observe an increasingly tail-like configuration of the magnetic field
+  - Phase 2. **The Expansion Phase**: 
   - Phase 3. **The Recovery Phase**:
 - **X-line**: Where the interconnection occurs due to the magnetic geometry in the region
 
