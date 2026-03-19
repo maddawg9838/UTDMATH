@@ -8,7 +8,11 @@
 - **Cross-Tail Current**: One portion of the current system that flows in a sheet across the center of the magnetotail, dividing the tail into two lobes (low-density regions) of oppositely directed magnetic field
 - **dF/<F> PSEF**: Relative change in electron flux
 - **dF/<F> PSIF**: Relative change in ion flux
+- **Electron Density**:
+- **Electron Temperature Anisotropy**:
 - **Interplanetary Magnetic Field**: Also known as Heliospheric Magnetic Field (HMF), is the component of the solar magnetic field that is dragged out from the solar corona by the solar wind flow to fill the Solar System
+- **Ion Density**:
+- **Ion Temperature Anisotropy**:
 - **Plasma**: Ionized gas which consists of a mix of free electrons and positively charged ions
 - **Reconnection**: A process by which magnetic energy is converted into plasma energy, due to the interconnection of oppositely directed magnetic fields
   - When the IMF (Interplanetary Magnetic Field) has a southward component, reconnection occurs on the dayside and nightside, and the magnetic lines of force in the solar wind become connected with the lines of force from the Earth
