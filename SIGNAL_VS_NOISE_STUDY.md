@@ -1,7 +1,7 @@
 # Purpose
 In this section, we explore the signal vs noise for events in the M dataset. Noise represents extreme measurements that are not actual physical events which can occur due to corrupted hardware, inaccurate tracking, and data transmission difficulties. It is important to separate this noise from actual physical events so that our research is based on true, significant data.
 
-# Bz and dBz6sec Distributions
+# Bz and dBz6sec Univariate Distributions
 <img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/a3897cdb-776c-45c6-853a-4852387f065e" />
 The Bz distributon for the full dataset shows significant noise in the dataset. There is a steep decrease in the number of points from 0 to 500 but after this decrease, there is a consistent floor of values extending to 25000 nT. We would expect the number of points to continue decaying. Therefore, the values for Bz are most likely being filled in the dataset as placeholders. As shown later, the restricted dataset does not have this floor as the counts decay, showing that the restricted filter selects physically relevant events and implicitly rejects the noisy points.
 
@@ -16,3 +16,5 @@ The dBz6sec distribution for the full dataset follows a similar pattern to that 
 
 <img width="1189" height="590" alt="69249adc-2ab6-432f-9ede-8ce17a749bcd" src="https://github.com/user-attachments/assets/b72f26c6-54ec-42dc-9075-81d337392e1b" />
 The dBz6sec distributon for the restricted dataset shows a steeper decay to single digit counts as the dBz6sec values extend to +/- 30 nT. There is no flat noise floor present showing that the restricted filter selects physically relevant events and implicitily rejects noisy points. There are still extreme values of Bz which need to be analyzed with 2D Distributions. 
+
+# 2D Distributions: Bz vs dBz6sec
