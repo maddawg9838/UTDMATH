@@ -1,5 +1,5 @@
 # Purpose
-In this section, we explore the signal vs noise for events in the M dataset. Noise represents extreme measurements that are not actual physical events which can occur due to corrupted hardware, inaccurate tracking, and data transmission difficulties. It is important to separate this noise from actual physical events so that our research is based on true, significant data.
+In this section, we explore the signal vs noise for events in the M dataset. Noise represents extreme measurements in the dataset events which can occur due to corrupted hardware, inaccurate tracking, and data transmission difficulties. It is important to separate noisy events from actual physical events (signal) so that our research is based on true, significant data.
 
 # Bz and dBz6sec Univariate Distributions
 <img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/a3897cdb-776c-45c6-853a-4852387f065e" />
