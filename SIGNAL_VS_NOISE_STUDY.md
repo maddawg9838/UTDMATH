@@ -20,8 +20,10 @@ The dBz6sec distributon for the restricted dataset shows a steeper decay to sing
 # 2D Distributions: Bz vs dBz6sec
 ## 2D Distribution without Noise Removal
 <img width="1574" height="1377" alt="image" src="https://github.com/user-attachments/assets/f0c02036-7988-408c-859a-feefcb341c28" />
+
 ## 2D Distribution with Noise Removal (Density Thresholding)
 <img width="1774" height="593" alt="image" src="https://github.com/user-attachments/assets/42b9c92a-e145-4ab2-8b87-9c66f1646d44" />
 <img width="1565" height="1377" alt="image" src="https://github.com/user-attachments/assets/d2e56b33-18f9-4f23-857c-f4acb15b6475" />
+
 ## 2D Distribution with Noise Removal (Bin Thresholding)
 <img width="1566" height="1377" alt="image" src="https://github.com/user-attachments/assets/38b75d89-452e-4484-bcde-5fec5d777456" />
