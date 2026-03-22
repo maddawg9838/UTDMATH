@@ -17,6 +17,11 @@ The dBz6sec distribution for the full dataset follows a similar pattern to that 
 <img width="1189" height="590" alt="69249adc-2ab6-432f-9ede-8ce17a749bcd" src="https://github.com/user-attachments/assets/b72f26c6-54ec-42dc-9075-81d337392e1b" />
 The dBz6sec distributon for the restricted dataset shows a steeper decay to single digit counts as the dBz6sec values extend to +/- 30 nT. There is no flat noise floor present showing that the restricted filter selects physically relevant events and implicitily rejects noisy points. There are still extreme values of Bz which need to be analyzed with 2D Distributions. 
 
+# Noise Removal Methods: Density Thresholding and Bin Count Thresholding
+## Density Thresholding
+
+## Bin Count Thresholding
+
 # 2D Distributions: Bz vs dBz6sec
 ## 2D Distribution without Noise Removal
 <img width="1574" height="1377" alt="image" src="https://github.com/user-attachments/assets/f0c02036-7988-408c-859a-feefcb341c28" />
@@ -27,3 +32,22 @@ The dBz6sec distributon for the restricted dataset shows a steeper decay to sing
 
 ## 2D Distribution with Noise Removal (Bin Thresholding)
 <img width="1566" height="1377" alt="image" src="https://github.com/user-attachments/assets/38b75d89-452e-4484-bcde-5fec5d777456" />
+
+# 2D Distributions: DF/F 2D Heat Maps
+## 2D Distribution without Noise Removal
+<img width="1573" height="1377" alt="image" src="https://github.com/user-attachments/assets/ae784994-8b38-4667-819a-fe35c2c1387a" />
+
+## 2D Distribution with Noise Reoval (Density Thresholding)
+<img width="1772" height="593" alt="image" src="https://github.com/user-attachments/assets/2010fd4a-4697-4e6d-b6dd-147e8fa1210c" />
+<img width="1566" height="1376" alt="image" src="https://github.com/user-attachments/assets/e0cfd16f-4970-43a2-a805-0cf569ea0e97" />
+
+## 2D Distribution with Noise Removal (Bin Count Thresholding)
+<img width="1389" height="495" alt="image" src="https://github.com/user-attachments/assets/a70ec791-6aa2-480b-8be4-45d9cf133df0" />
+<img width="1565" height="1376" alt="image" src="https://github.com/user-attachments/assets/87ef09ee-8db8-4339-9019-474f68392beb" />
+
+# 2D Distributions: Bz vs dBz6sec (Counts & Average Ion Flux)
+## 2D Distribution without Noise Removal (Side-by-Side)
+<img width="2175" height="2749" alt="image" src="https://github.com/user-attachments/assets/f7b65e00-a117-4b27-a8a3-5f163fa06e48" />
+
+## 2D Distribution with Noise Removal Side-by-Side (Bin Count Thresholding)
+<img width="2175" height="2749" alt="image" src="https://github.com/user-attachments/assets/3772cda9-a831-4109-a2f9-6523185d5f92" />
