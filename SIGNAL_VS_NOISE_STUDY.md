@@ -2,7 +2,7 @@
 In this section, we explore the signal vs noise for events in the M dataset. Noise represents extreme measurements in the dataset events which can occur due to corrupted hardware, inaccurate tracking, and data transmission difficulties. It is important to separate noisy events from actual physical events (signal) so that our research is based on true, significant data.
 
 # Bz and dBz6sec Univariate Distributions
-<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/a3897cdb-776c-45c6-853a-4852387f065e" />
+<img width="1590" height="790" alt="0d899e69-fbc5-4482-b8a8-c4185799c2ee" src="https://github.com/user-attachments/assets/1a69f2cc-1d68-41fb-ade8-48946888475e" />
 The Bz distributon for the full dataset shows significant noise in the dataset. There is a steep decrease in the number of points from 0 to 500 but after this decrease, there is a consistent floor of values extending to 25000 nT. We would expect the number of points to continue decaying. Therefore, the values for Bz are most likely being filled in the dataset as placeholders. As shown later, the restricted dataset does not have this floor as the counts decay, showing that the restricted filter selects physically relevant events and implicitly rejects the noisy points.
 
 <img width="989" height="590" alt="22ad7750-1d7a-4160-b927-ccfd79f01e01" src="https://github.com/user-attachments/assets/cfa13ee5-afb3-4c29-87fc-619f4969d40b" />
