@@ -27,7 +27,9 @@ The second noise removal method used to focus on the signal in the data was **bi
 # 2D Distributions: Bz vs dBz6sec
 ## 2D Distribution without Noise Removal
 <img width="1574" height="1377" alt="image" src="https://github.com/user-attachments/assets/f0c02036-7988-408c-859a-feefcb341c28" />
-
+- We focus on analyzing the restricted dataset as it has already removed a significant amount of noise from the full dataset. (top right corner)
+- From the restricted dataset, we can observe that there are a large number of points from 0 to 30 Bz and -2.5 to 2.5 dBz6sec which is further zoomed in. (bottom left corner)
+- In addition, we observe a tail of values from 80 to 110 Bz which consist of sparse bins that are highly scattered. This section of the data looks to be noise and is examined further with noise removal. (bottom right corner)
 
 ## 2D Distribution with Noise Removal (Density Thresholding)
 <img width="1774" height="593" alt="image" src="https://github.com/user-attachments/assets/42b9c92a-e145-4ab2-8b87-9c66f1646d44" />
