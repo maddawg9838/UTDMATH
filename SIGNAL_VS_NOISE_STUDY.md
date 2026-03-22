@@ -18,3 +18,5 @@ The dBz6sec distribution for the full dataset follows a similar pattern to that 
 The dBz6sec distributon for the restricted dataset shows a steeper decay to single digit counts as the dBz6sec values extend to +/- 30 nT. There is no flat noise floor present showing that the restricted filter selects physically relevant events and implicitily rejects noisy points. There are still extreme values of Bz which need to be analyzed with 2D Distributions. 
 
 # 2D Distributions: Bz vs dBz6sec
+<img width="1574" height="1377" alt="image" src="https://github.com/user-attachments/assets/f0c02036-7988-408c-859a-feefcb341c28" />
+<img width="1566" height="1377" alt="image" src="https://github.com/user-attachments/assets/38b75d89-452e-4484-bcde-5fec5d777456" />
