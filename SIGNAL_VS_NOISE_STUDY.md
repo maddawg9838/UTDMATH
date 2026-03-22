@@ -28,6 +28,7 @@ The second noise removal method used to focus on the signal in the data was **bi
 ## 2D Distribution without Noise Removal
 <img width="1574" height="1377" alt="image" src="https://github.com/user-attachments/assets/f0c02036-7988-408c-859a-feefcb341c28" />
 
+
 ## 2D Distribution with Noise Removal (Density Thresholding)
 <img width="1774" height="593" alt="image" src="https://github.com/user-attachments/assets/42b9c92a-e145-4ab2-8b87-9c66f1646d44" />
 <img width="1565" height="1377" alt="image" src="https://github.com/user-attachments/assets/d2e56b33-18f9-4f23-857c-f4acb15b6475" />
