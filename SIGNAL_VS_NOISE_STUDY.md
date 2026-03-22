@@ -1,4 +1,5 @@
 # Purpose
 In this section, we explore the signal vs noise for events in the M dataset. Noise represents extreme measurements that are not actual physical events which can occur due to corrupted hardware, inaccurate tracking, and data transmission difficulties. It is important to separate this noise from actual physical events so that our research is based on true, significant data.
 # Bz and dBz6sec Distributions
-<img width="989" height="590" alt="7212f6e0-612d-49e1-aa0c-5dc1880590b4" src="https://github.com/user-attachments/assets/d5ad9d03-0203-4bf2-9f31-9dfb3831977a" />
+<img width="989" height="590" alt="22ad7750-1d7a-4160-b927-ccfd79f01e01" src="https://github.com/user-attachments/assets/cfa13ee5-afb3-4c29-87fc-619f4969d40b" />
+From the above visualization, we can observe that there is a long right tail which extends past 50 nT in the log scale. There are counts in the thousands past 60+ nT which is unusual in the near-Earth plasma sheet. There are either strong magnetic field events past 60 nT or these are events which need to be closely examined. There are also a small number of negative Bz points which will be examined further with 2D Heatmaps to see if these points are unusual. 
