@@ -19,8 +19,10 @@ The dBz6sec distributon for the restricted dataset shows a steeper decay to sing
 
 # Noise Removal Methods: Density Thresholding and Bin Count Thresholding
 ## Density Thresholding
+The first noise removal method used to focus on the signal in the data was **density thresholding**. The idea of density thresholding is to smooth the historgram with a gaussian kernel (sigma = 2.0 was selected). The smoothing of the histogram helps with differentiating sparse bins from dense bins helping separate signal from noise. A bin surrounded by other sparse bins receives a low smoothed density value while a bin adjacent to a dense signal region receives a higher value. A threshold of xth percentile represents that ony points whose local density exceed this threshold are retained. A list of thresholds such as 30th, 40th, 50th, 60th, 70th, 80th, 85th, and 90th percentiles were examined on the data to determine the percentage of points droppeed as well as the visual location of flaged points relative to the signal structure.
 
 ## Bin Count Thresholding
+The second noise removal method used to focus on the signal in the data was **bin count thresholding**. Once the 2D histograms were plotted, the distribution of the actual bin counts in each bin were visualized to drop bins that represent noise in the dataset. The threshold selected was bincount = 10 from possible values of 2, 3, 5, and 10. The threshold of 10 drops the points within bins where the bin count is less than 10. Secondary bin count noise removal was also carried out for regions with extreme values in the dataset. 
 
 # 2D Distributions: Bz vs dBz6sec
 ## 2D Distribution without Noise Removal
