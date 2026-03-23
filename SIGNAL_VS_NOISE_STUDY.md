@@ -83,3 +83,6 @@ The second noise removal method used to focus on the signal in the data was **bi
 
 * The noise removal shows a clear, dense pattern for the 2D distribution without the scattered noise which was present in the original visualizations.
 * The most important aspect from the visualizations after bin count thresholding is applied is the filtering of values from 80-110 Bz. The two step noise filtering removes the sparse, scattered bins. Since these extreme points have bins with a significant number of reoccuring events (>10) we decide to keep them as signal in the dataset.
+
+# Next Steps with this Noise Study
+Every timestamp/point from the M dataset was provided a flag to indicate a signal/noise point based on the 2D distributions analyzed. There are currently noise flags for Bz_density, Bz_bincount, flux_density, and flux_bincount. The next goal would be to have a cleaned dataset named M_signal_final which only considers signal points. This can be done using a majority-vote system based on the flags or a ranking system. We will need to clearly decide the approach to finalize our signal dataset. Ultimately, this dataset will serve as the input for subsequent correlation analysis and later predictive modeling phases. 
