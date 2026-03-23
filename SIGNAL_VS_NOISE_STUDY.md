@@ -28,7 +28,7 @@ The second noise removal method used to focus on the signal in the data was **bi
 ## 2D Distribution without Noise Removal
 <img width="1574" height="1377" alt="image" src="https://github.com/user-attachments/assets/f0c02036-7988-408c-859a-feefcb341c28" />
 
-* We focus on analyzing the restricted dataset as it has already removed a significant amount of noise from the full dataset. (top right corner)
+* We focus on analyzing the restricted dataset as the restricted night-side filter has already removed a significant amount of noise from the full dataset. (top right corner)
 * From the restricted dataset, we can observe that there are a large number of points from 0 to 30 Bz and -2.5 to 2.5 dBz6sec which is further zoomed in. (bottom left corner)
 * In addition, we observe a tail of values from 80 to 110 Bz which consist of sparse bins that are highly scattered. This section of the data looks to be noise and is examined further with noise removal. (bottom right corner)
 
@@ -36,20 +36,25 @@ The second noise removal method used to focus on the signal in the data was **bi
 <img width="1774" height="593" alt="image" src="https://github.com/user-attachments/assets/42b9c92a-e145-4ab2-8b87-9c66f1646d44" />
 <img width="1565" height="1377" alt="image" src="https://github.com/user-attachments/assets/d2e56b33-18f9-4f23-857c-f4acb15b6475" />
 
-* The density threshold selected was 80th pct. The noise plot shows all of the flagged red points which represent noise in the data. The visualiztions are plotted again with the noise points removed.
+* The density threshold selected was the 80th percentile. This threshold flagged 976 points as noise (0.18%). The noise plot shows all of the flagged red points which represent noise in the data. The visualiztions are plotted again with the noise points removed.
 * The extreme points that were in sparse regions/bins are completely removed when visualizing the data after the density cleaning. It is still worth examining the extreme Bz values (80-110) as this regions still has sparse bins with small bin counts.
-* We try bin count thresholding to further eliminate noise in the dataset and to cross-reference the density threshold method for noise removal
+* We try bin count thresholding to further eliminate noise in the dataset and to cross-reference the density threshold method used for noise removal.
 
 ## 2D Distribution with Noise Removal (Bin Thresholding)
 <img width="1566" height="1377" alt="image" src="https://github.com/user-attachments/assets/38b75d89-452e-4484-bcde-5fec5d777456" />
+<img width="1389" height="495" alt="f17ad410-a896-4aae-971b-6dc06aca2122" src="https://github.com/user-attachments/assets/dd84de34-00f0-4cb6-aa46-f615c5d0442b" />
 
-
+* The bin count threshold selected for initial noise removal was bin count = 10. This flagged 4309 data points as noise (0.79%).
+* As shown in the original distribution for extreme values of Bz (80-110), a second noise removal was applied specifically to this extreme region. Finer bins were used to catch the sparse scatter that survived the initial noise filter.
+* The secondary noise removal shows less sparse scatter in the extreme values for Bz compared to the density threshold method. Therefore, the bin thresholding method is used for future plots involving Bz and dBz6sec.
 
 # 2D Distributions: DF/F 2D Heat Maps
 ## 2D Distribution without Noise Removal
 <img width="1573" height="1377" alt="image" src="https://github.com/user-attachments/assets/ae784994-8b38-4667-819a-fe35c2c1387a" />
 
-## 2D Distribution with Noise Reoval (Density Thresholding)
+*
+
+## 2D Distribution with Noise Removal (Density Thresholding)
 <img width="1772" height="593" alt="image" src="https://github.com/user-attachments/assets/2010fd4a-4697-4e6d-b6dd-147e8fa1210c" />
 <img width="1566" height="1376" alt="image" src="https://github.com/user-attachments/assets/e0cfd16f-4970-43a2-a805-0cf569ea0e97" />
 
