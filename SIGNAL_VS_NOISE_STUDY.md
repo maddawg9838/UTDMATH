@@ -48,23 +48,38 @@ The second noise removal method used to focus on the signal in the data was **bi
 * As shown in the original distribution for extreme values of Bz (80-110), a second noise removal was applied specifically to this extreme region. Finer bins were used to catch the sparse scatter that survived the initial noise filter.
 * The secondary noise removal shows less sparse scatter in the extreme values for Bz compared to the density threshold method. Therefore, the bin thresholding method is used for future plots involving Bz and dBz6sec.
 
-# 2D Distributions: DF/F 2D Heat Maps
+# 2D Distributions: Relative dF/F Ion vs Electron 2D Heat Maps
 ## 2D Distribution without Noise Removal
 <img width="1573" height="1377" alt="image" src="https://github.com/user-attachments/assets/ae784994-8b38-4667-819a-fe35c2c1387a" />
 
-*
+* Similar to the Bz/dBz6sec 2D Distribution, the 2D distribution for Relative dF/F consists of noise which is removed from the initial restricted night-side filter. For noise removal, we clip the points to focus on -2.0 to 2.0 for relative dF/F of ions and -0.005 to 0.005 for relative dF/F of electrons.
+* The medium zoom shows that the most number of points lie not exactly, but near PSIF = 0 and PSEF = 0. As we zoom further with high zoom, we see that the bins present in this core region have a large number of points.
+* From the zoomed in vidualizations, it is still observable that there are many scattered bins with bin counts that are in the single digits. Therefore, we apply the noise removal methods. 
 
 ## 2D Distribution with Noise Removal (Density Thresholding)
 <img width="1772" height="593" alt="image" src="https://github.com/user-attachments/assets/2010fd4a-4697-4e6d-b6dd-147e8fa1210c" />
 <img width="1566" height="1376" alt="image" src="https://github.com/user-attachments/assets/e0cfd16f-4970-43a2-a805-0cf569ea0e97" />
 
+* Similar to the Bz/dBz6sec density noise removal, we select the 80th percentile as the threshold. This flags 5379 data points as noise and eliminates many of the scattered low count bins in the original visualization.
+* The removal of the noise points show cleaner 2D distributions which are more dense and less scattered. This is observable with the high zoom and core visualizations (bottom left and right corner).
+
 ## 2D Distribution with Noise Removal (Bin Count Thresholding)
 <img width="1389" height="495" alt="image" src="https://github.com/user-attachments/assets/a70ec791-6aa2-480b-8be4-45d9cf133df0" />
-<img width="1565" height="1376" alt="image" src="https://github.com/user-attachments/assets/87ef09ee-8db8-4339-9019-474f68392beb" />
+<img width="1565" height="1376" alt="40122a91-020e-4d40-aadf-9cf18f2a55fa" src="https://github.com/user-attachments/assets/f5414940-e578-47e8-b430-2829f6562169" />
+
+* The bin count thresholding was also done for this 2D distribution. The bin count thresholding was more agressive in this case as 8949 data points were flagged as noise (1.82% of the data).
+* The removal of the sparse bins will allow for greater focus on dense regions in the restricted dataset where there are a large number of points within bins. There are still some scattered bins present which can be further filtered. 
 
 # 2D Distributions: Bz vs dBz6sec (Counts & Average Ion Flux)
 ## 2D Distribution without Noise Removal (Side-by-Side)
 <img width="2175" height="2749" alt="image" src="https://github.com/user-attachments/assets/f7b65e00-a117-4b27-a8a3-5f163fa06e48" />
 
+* Three different plots are visualized side-by-side to analyze the relationships between average ion flux, point count, and flux per observation. We focus primarily on the restricted dataset.
+* In the unzoomed restricted data visualization, we can observe that the average ion flux is lower for regions where there is the greatest point count in the restricted dataset. As Bz increases, the bins become less dense in terms of point count, but the average ion flux continues to increase.
+* The flux per observation provides a similar result as the flux is extremely high for points that are clustered at the extreme right tail for values of Bz. The ion flux, point count, and flux per observation are zoomed in further for this tail. We can see that the bins are scattered within the zoomed in range.
+
 ## 2D Distribution with Noise Removal Side-by-Side (Bin Count Thresholding)
 <img width="2175" height="2749" alt="image" src="https://github.com/user-attachments/assets/3772cda9-a831-4109-a2f9-6523185d5f92" />
+
+* The noise removal shows a clear, dense pattern for the 2D distribution without the scattered noise which was present in the original visualizations.
+* The most important aspect from the visualizations after bin count thresholding is applied is the filtering of values from 80-110 Bz. The two step noise filtering removes the sparse, scattered bins. Since these extreme points have bins with a significant number of reoccuring events (>10) we decide to keep them as signal in the dataset.
