@@ -1,7 +1,8 @@
 # TEAM ACTION PLAN
 For this semester, our project will focus on: Identifying physically meaningful magnetic and plasma patterns that precede large directional fluctuations in elementary particle fluxes in the restricted dataset.
 
-**Phase 1. Re-establish the foundation***
+**Phase 1. Re-establish the foundation**
+
 	1. Lock the dataset and scope:
 	Use the restricted dataset as the main working dataset.
 	Tasks:
