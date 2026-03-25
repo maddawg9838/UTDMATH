@@ -23,6 +23,7 @@
 - **Magnetotail Lobes**: Low-density regions with strong magnetic fields on either side of the plasma sheet
 - **Magnetosphere**: The region of space surrounding Earth dominated by Earth's magnetic field, which interacts with the solar wind
 - **Magnetospheric Substorm**: A transient process in the magnetosphere in which stored magnetic energy in the magnetotail is rapidly released, leading to auroral intensification, particle acceleration, and plasma flows
+  - Substorms generate waves including whistler-mode waves
   - Phase 1. **The Growth Phase**: The magnetotail stores energy it extracts from the solar wind, and as it does, the cross-tail current intensifies
     - The intensification causes the magnetic field in the lobes to increase, and the magnetotail becomes more stressed as the field lines become stretched into a more tail-like configuration 
     - Increased stress causes the near-Earth (<~ RE: Earth radii) plasma sheet to narrow in the north-south dimension; this process is referred to as plasma-sheet thinning.
@@ -45,7 +46,12 @@
   - When the IMF (Interplanetary Magnetic Field) has a southward component, reconnection occurs on the dayside and nightside, and the magnetic lines of force in the solar wind become connected with the lines of force from the Earth
   - Transfers magnetic flux into the magnetotail, which is equivalent to storing energy in the magnetotail
 - **Reconnection Rate**: The rate at which magnetic flux is reconnected (important for energy release intensity)
-- **Solar Wind**: A tenuous (very weak or slight), rapidly flowing plasma from the Sun that carries interplanetary magnetic field trhough the solar system
+- **Resonant Interaction**: Resonant interaction occurs when a particle and a wave move in sync (match frequency), allowing efficient energy transfer as the particle repeatedly interacts with the wave's electric field. This ultimately allows for continuous energy exchange.
+  - Electrons gain energy
+  - Increases velocity
+  - Increases temperature
+  - Increases flux
+- **Solar Wind**: A tenuous (very weak or slight), rapidly flowing plasma from the Sun that carries the interplanetary magnetic field through the solar system
 - **Substorm Onset**: The time at which the expansion phase begins, typically identified by auroral brightening and rapid changes in magnetic and plasma parameters
 - **Temperature Anisotropy**: The difference between perpendicular and parallel temperatures relative to the magnetic field
 - **Temperature Components**: Temperature of particles is the average kinetic energy of particles; how energetic and directional the particles are
@@ -55,8 +61,12 @@
   - **Low Temperature**: Many particles moving slowly
   - Stronger perpendicular heating indicates dipolarization
   - Higher parallel temperature indicates field-aligned acceleration
-- **Vx**: Plasma flow velovity in the Sun-Earth direction (GSM X-direction)
+- **Vx**: Plasma flow velocity in the Sun-Earth direction (GSM X-direction)
   - Negative values typically indicate earthward flows in the magnetotail
+- **Whistler-Mode Waves**: A type of electromagnetic plasma wave that propagates along magnetic field lines, occurs at frequencies below the electron gyrofrequency, and mainly interacts with electrons
+  - Waves traveling along magnetic field lines that can transfer energy to electrons
+  - Distribute energy to particles
+  - Flux increases, temperature changes, and anisotropy
 - **X-line**: Where the interconnection occurs due to the magnetic geometry in the region
 
 
