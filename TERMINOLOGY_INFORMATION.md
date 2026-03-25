@@ -1,6 +1,7 @@
 # Project Terminology & Information
 
-- **Auroral Electrojet (AE) Index**: 
+- **Auroral Electrojet (AE) Index**: A geomagnetic index that measures the strength of eastward and westward ionospheric currents (auroral electrojets).
+  - Large increases in AE are associated with substorm activity.
 - **Birkeland Currents**: The currents that flow along the magnetic field due to the interaction between the solar wind and the Earth's magnetosphere, which flow through space and along lines of magnetic force
 - **Bursty Bulk Flows (BBFs)**: Fast, transient earthward plasma flows in the plasma sheet associated with reconnection
 - **Bx** (GSM Coordinate): Sun-Earth direction
@@ -12,24 +13,30 @@
 - **dF/<F> PSEF**: Relative change in electron flux
 - **dF/<F> PSIF**: Relative change in ion flux
 - **Dipolarization**: A rapid change of the magnetic field from stretched (tail-like) to a more dipole-like configuration, often observed as a sharp increase in Bz
-- **Electron Density**:
-- **Electron Temperature Anisotropy**:
+- **Electron Density**: The number of electrons per unit volume in the plasma, used to characterize plasma sheet conditions
+- **Electron Temperature Anisotropy**: The ratio of perpendicular to parallel electron temperature elative to the magnetic field, indicating differences in particle energization mechanisms.
 - **Flow Braking**: The slowing of BBFs near Earth, leading to energy conversion and dipolarization
-- **Geomagnetic Storm**:
+- **Geomagnetic Storm**: A large-scale, long-duration disturbance of Earth's magnetosphere caused by enhanced solar wind conditions, distinct from shorter, localized substorms.
 - **Interplanetary Magnetic Field (IMF)**: Also known as Heliospheric Magnetic Field (HMF), is the component of the solar magnetic field that is dragged out from the solar corona by the solar wind flow to fill the Solar System
-- **Ion Density**:
-- **Ion Temperature Anisotropy**:
+- **Ion Density**: The number of ions per unit volume in the plasma, used to describe plasma sheet structure and dynamics.
+- **Ion Temperature Anisotropy**: The ratio of perpendicular to parallel ion temperature, indicating directional differences in ion heating. 
 - **Magnetotail Lobes**: Low-density regions with strong magnetic fields on either side of the plasma sheet
-- **Magnetosphere**:
+- **Magnetosphere**: The region of space surrounding Earth dominated by Earth's magnetic field, which interacts with the solar wind
 - **Magnetospheric Substorm**: A transient process in the magnetosphere in which stored magnetic energy in the magnetotail is rapidly released, leading to auroral intensification, particle acceleration, and plasma flows
   - Phase 1. **The Growth Phase**: The magnetotail stores energy it extracts from the solar wind, and as it does, the cross-tail current intensifies
     - The intensification causes the magnetic field in the lobes to increase, and the magnetotail becomes more stressed as the field lines become stretched into a more tail-like configuration 
     - Increased stress causes the near-Earth (<~ RE: Earth radii) plasma sheet to narrow in the north-south dimension; this process is referred to as plasma-sheet thinning.
     - Before the onset of auroral activity
-    - Consequence
-      - Since the maximum particle flux is found at the center of the plasma sheet, a satellite located in the plasma sheet will observe a decrease in the flux as the plasma sheet thins. It will also observe an increasingly tail-like configuration of the magnetic field
-  - Phase 2. **The Expansion Phase**: 
-  - Phase 3. **The Recovery Phase**:
+    - Consequence: Since the maximum particle flux is found at the center of the plasma sheet, a satellite located in the plasma sheet will observe a decrease in the flux as the plasma sheet thins. It will also observe an increasingly tail-like configuration of the magnetic field
+  - Phase 2. **The Expansion Phase**: Rapid energy release begins due to magnetic reconnection
+    - Dipolarization occurs (increase in Bz)
+    - BBFs transport plasma earthward
+    - Auroral intensification is observed
+    - Strong increases in particle flux and magnetic variability
+  - Phase 3. **The Recovery Phase**: The system gradually returns to a more stable configuration
+    - Magnetic field relaxes
+    - Plasma flows weaken
+    - Particle flux levels decrease
 - **Near-Earth Neutral Line (NENL): The reconnection site in the magnetotail where substorms are initiated
 - **Neutral Sheet**: The boundary where Bz ~ 0 separating the two lobes
 - **Plasma**: Ionized gas which consists of a mix of free electrons and positively charged ions
@@ -38,13 +45,18 @@
   - When the IMF (Interplanetary Magnetic Field) has a southward component, reconnection occurs on the dayside and nightside, and the magnetic lines of force in the solar wind become connected with the lines of force from the Earth
   - Transfers magnetic flux into the magnetotail, which is equivalent to storing energy in the magnetotail
 - **Reconnection Rate**: The rate at which magnetic flux is reconnected (important for energy release intensity)
-- **Solar Wind**: A tenuous (very weak or slight), rapidly flowing plasma
-- **Substorm Onset**: The time at which the expansion phase begins, typically identified by auroral brightening and magnetic disturbances
-- **Temperature Anisotropy**
-- **Temperature Components**:
-  - **Perpendicular Temperature**:
-  - **Parallel Temperature**: 
-- **Vx**: 
+- **Solar Wind**: A tenuous (very weak or slight), rapidly flowing plasma from the Sun that carries interplanetary magnetic field trhough the solar system
+- **Substorm Onset**: The time at which the expansion phase begins, typically identified by auroral brightening and rapid changes in magnetic and plasma parameters
+- **Temperature Anisotropy**: The difference between perpendicular and parallel temperatures relative to the magnetic field
+- **Temperature Components**: Temperature of particles is the average kinetic energy of particles; how energetic and directional the particles are
+  - **Perpendicular Temperature**: Temperature of particles moving perpendicular to the magnetic field
+  - **Parallel Temperature**: Temperature of particles moving along the magnetic field
+  - **High Temperature**: Few particles moving very fast
+  - **Low Temperature**: Many particles moving slowly
+  - Stronger perpendicular heating indicates dipolarization
+  - Higher parallel temperature indicates field-aligned acceleration
+- **Vx**: Plasma flow velovity in the Sun-Earth direction (GSM X-direction)
+  - Negative values typically indicate earthward flows in the magnetotail
 - **X-line**: Where the interconnection occurs due to the magnetic geometry in the region
 
 
