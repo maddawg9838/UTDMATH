@@ -9,14 +9,18 @@
 
 **Solution:** Add splitting on sequence keys or segment boundaries 
 
-3. Previously built tree-based methods (XGBoost/RandomForest) did not have any cross-validation or hyper-parameter tunings which might have overlooked significant information. 
+3. Previously built tree-based methods (XGBoost/RandomForest) did not have any cross-validation or hyper-parameter tuning, which might have overlooked significant information. 
 
-**Solution:** Build logistic regression model for baseline performance. Then recreate tree-based methods but include cross-validation and hyper-parameter tuning. The build-off of discovered information with a Neural Network (LSTM) or Transformer. 
+**Solution:** Build a logistic regression model for baseline performance. Then, recreate tree-based methods but include cross-validation and hyper-parameter tuning. The build-off of discovered information with a Neural Network (LSTM) or Transformer. 
 
 4. The LOF Outlier Removal used had test information leaked into outlier detection  
-Solution: Use the same outlier removal method but apply to both the training and testing set separately. 
+Solution: Use the same outlier removal method, but apply it to both the training and testing sets separately. 
+
+## Creating Model Process
+1. Downloaded datasets and created training, validation, and testing sets while adding the splitting on sequence keys/segment boundaries
+2. 
 
 ## Comparison of Models 
 
 ## Future Research Comments: 
-- Utilizing the Electrostatic Analyzer velocity measurements over the Moment data since ESA velocity should be more accurate on the magnetotail plasma sheet nightside. The dominant ion population driving bulk flows is thermal to suprathermal ions, which squarely land in the ESA energy range. This prevents overexaggeration of velocity due to the incorporation of SST data in MOM data. 
+- Utilizing the Electrostatic Analyzer velocity measurements over the Moment data, since ESA velocity should be more accurate on the magnetotail plasma sheet nightside. The dominant ion population driving bulk flows is thermal to suprathermal ions, which squarely land in the ESA energy range. This prevents overexaggeration of velocity due to the incorporation of SST data in MOM data. 
