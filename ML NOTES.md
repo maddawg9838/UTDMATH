@@ -17,7 +17,7 @@
 Solution: Use the same outlier removal method, but apply it to both the training and testing sets separately. 
 
 ## Creating Model Process
-1. Downloaded datasets and created training, validation, and testing sets while adding the splitting on sequence keys/segment boundaries
+1. Downloaded datasets and created training, validation, and testing sets while adding the splitting on sequence keys/segment boundaries. 
 2. 
 
 ## Comparison of Models 
