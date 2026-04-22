@@ -1,3 +1,5 @@
+# Machine-Learning Model Notes
+
 ## Issues Discovered and Solutions Proposed
 1. F-1 Score Threshold directly onto the testing set; therefore, the final reported metrics are optimized for the testing set. 
 
