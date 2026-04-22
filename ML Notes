@@ -1,5 +1,4 @@
-$Issues Discovered and Solutions Proposed$
-
+Issues Discovered and Solutions Proposed
 1. F-1 Score Threshold directly onto the testing set; therefore, the final reported metrics are optimized for the testing set. 
 
 Solution: Create training, validation, and testing sets; and tune the F-1 Score Threshold on the validation set. 
@@ -8,14 +7,16 @@ Solution: Create training, validation, and testing sets; and tune the F-1 Score 
 
 Solution: Add splitting on sequence keys or segment boundaries 
 
-3. Previous built tree-based methods (XGBoost/RandomForest) did not have any cross-validation or hyper-parameter tunings which might have overlooked significant information. 
+3. Previously built tree-based methods (XGBoost/RandomForest) did not have any cross-validation or hyper-parameter tunings which might have overlooked significant information. 
 
 Solution: Build logistic regression model for baseline performance. Then recreate tree-based methods but include cross-validation and hyper-parameter tuning. The build-off of discovered information with a Neural Network (LSTM) or Transformer. 
 
 4. The LOF Outlier Removal used had test information leaked into outlier detection  
 Solution: Use the same outlier removal method but apply to both the training and testing set separately. 
 
+\\
 Comparison of Models 
 
+\\
 Future Research Comments: 
 - Utilizing the Electrostatic Analyzer velocity measurements over the Moment data since ESA velocity should be more accurate on the magnetotail plasma sheet nightside. The dominant ion population driving bulk flows is thermal to suprathermal ions, which squarely land in the ESA energy range. This prevents overexaggeration of velocity due to the incorporation of SST data in MOM data. 
